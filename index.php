@@ -203,12 +203,14 @@
 
   <form class="form-horizontal" role="form">
     <div class="form-group">
-      <label for="basic" class="col-lg-2 control-label">"Conforto" (Básico ou Completo)</label>
+      <label for="basic" class="col-lg-2 control-label">"Tempo" (escolha por quanto tempo)</label>
 
       <div class="col-lg-10">
        <select id="basic" class="selectpicker show-tick form-control" data-live-search="true">
-          <option>Básico</option>
-          <option>Completo</option>
+          <option>Básico de 6 meses</option>
+          <option>Completo de 12 meses</option>
+          <option>Profissional de 24 meses</option>
+          <option>Economico de 36 meses</option>
           
         </select>
       </div>
